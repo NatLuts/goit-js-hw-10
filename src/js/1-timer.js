@@ -14,7 +14,7 @@ startBtn.disabled = true;
 const options = {
   enableTime: true,
   time_24hr: true,
-  defaultDate: Date.now(),
+  defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
     userSelectedDate = selectedDates[0];
